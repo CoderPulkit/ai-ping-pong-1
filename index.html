@@ -1,0 +1,41 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1eYZt6uj8pIPGKmlEFGPjNxGTRGEdwQwrfT02ij27hfUVN5BI6ybjBN7Gyp3Fs0H39xU&usqp=CAU">
+        <center>
+            <span >
+              <h3 style="color: white;font-size:30px; ">AI Ping Pong</h3>
+              <button data-toggle="modal" data-target="#myModal" class="btn btn-warning">Instructions</button>
+            </span>
+        
+            <br>
+            <br>
+            <br>
+            <button onclick="play();" class="btn btn-primary" id="startgame">Play Game</button>
+            <br>
+            <br>
+            <h3 class="btn btn success" id="status"></h3><br>
+            <br>
+        
+            <br>
+            <br>
+            <div id="game_console"></div>
+            <br><br>
+           
+          </center>
+        <script src="main.js"></script>
+    </body>
+</html>
